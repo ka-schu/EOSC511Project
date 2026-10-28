@@ -24,7 +24,7 @@ def glacier(ngridx, ngridz, dt, zinput, T, ML, alpha, motion = False, steady = T
     Kx= 5 * L/dx        # diffusivity coeff x direction
     Kz= 1e-4 * D/dz     # diffusivity coeff z direction
     Ah= 2 * L/dx        # eddy horizontal diff coeff 
-    Av= 1e-3 * D/dz     # eddy vertical diff coeff 
+    Av= 1e-4 * D/dz     # eddy vertical diff coeff 
     #alpha =  0.4/86400 # Oxidation rate constant (0.4 day^-1, converted to seconds).
     mu = 0.00183       # Dynamic viscosity of water at 1 C [m2/s]
     Kd = 0.0087e-5      # molecular diffusivity of methane at 4C in seawater (couldn't find for 1C) [m2/s]
